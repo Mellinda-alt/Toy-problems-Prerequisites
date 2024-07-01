@@ -1,22 +1,21 @@
-# Toy Promblems Prerequisites
-
-
-## Title:Student Grade Generator
+# Title:Toy Promblems Prerequisites
 
 ## Description:
+
+### Student Grade Generator
 
 1. Write a program that takes the speedof a car as input e.g 80. If the speed is less than 70, it should print "Ok". Otherwise, for every 5 km/s above the speed limit (70), it should give the driver one demerit point and print the total number of demerit points.
 
 
 > For example,if the speed is 80,it should print: "Points: 2". If the driver gets more than 12 points,the function should print: "License suspended".
 
-
+### Speed Detector
 
 2. Write a program that takes the speed of a car as input e.g 80. If the speed is less than 70, it should print “Ok”. Otherwise, for every 5 km/s above the speed limit (70), it should give the driver one demerit point and print the total number of demerit points.
 
    > For example, if the speed is 80, it should print: “Points: 2”. If the driver gets more than 12 points, the function should print: “License suspended”.
 
-
+### Net Salary Calculator
 
 3. Write a program whose major task is to calculate an individual’s Net Salary by getting the inputs of basic salary and benefits. Calculate the payee (i.e. Tax), NHIF Deductions, NSSF Deductions, gross salary, and net salary. 
 

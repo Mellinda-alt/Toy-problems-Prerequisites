@@ -1,37 +1,19 @@
 function calculateNetSalary(basicSalary, benefits) {
-    
-    const taxRate = 2.2
-    const nhifRate = 2.1
-    const nssfRate = 2.2
+    const grossSalary = basicSalary + benefits;
 
-    const grossSalary = basicSalary + benefits
+    const payee = 0.2 * grossSalary;
+    const nhif = 0.1 * grossSalary;
+    const nssf = 0.2 * grossSalary;
 
+    const netSalary = grossSalary - (payee + nhif + nssf);
 
-    const tax = grossSalary * taxRate;
-    const nhif = grossSalary * nhifRate;
-    const nssf = grossSalary * nssfRate;
-    
-
-
-    const netSalary = grossSalary - (tax + nhif + nssf);
-
-    return{
-        grossSalary,
-        tax,
-        nhif,
-        nssf,
-        netSalary
-    };
-
+    return netSalary;
 }
 
+const basicSalary = 59000;
+const benefits = 4500;
 
-const basicSalary = 69000;
-const benefits = 58000;
-const result = calculateNetSalary(basicSalary, benefits);
-console.log("Net Salary Calculation Results:");
-console.log("Gross Salary:", result.grossSalary);
-console.log("Tax:", result.tax);
-console.log("NHIF Deductions:", result.nhif);
-console.log("NSSF Deductions:", result.nssf);
-console.log("Net Salary:", result.netSalary);
+
+
+const netSalary = calculateNetSalary(basicSalary,benefits);
+console.log("Net Salary:" + netSalary);

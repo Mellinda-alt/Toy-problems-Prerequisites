@@ -19,8 +19,13 @@
 
 3. Write a program whose major task is to calculate an individual’s Net Salary by getting the inputs of basic salary and benefits. Calculate the payee (i.e. Tax), NHIF Deductions, NSSF Deductions, gross salary, and net salary. 
 
+NB: Use KRA, NHIF, and NSSF values provided in the link below.
 
+- https://www.aren.co.ke/payroll/taxrates.htm Links to an external site.
 
+Links to an external site.-  Links to an external site.Links to an external site.
+
+- www.kra.go.ke/en/individual/calculate-tax/calculating-tax/payeLinks to an external site.
 
 
 ## Prerequisites / Getting Started
@@ -29,8 +34,6 @@ Inorder to run this program a computer should meet the following requirements;
     1. 8GB RAM(Random Access Memory) and upwards.
     2. Core i5 7th Gen and upwards.
     3. At least 256GB of storage.
-
-
 
 
 ## Installation:
@@ -55,7 +58,7 @@ Inorder to run this program a computer should meet the following requirements;
 
 Contributed by:
 
-*Mellinda Wambui
+* Mellinda Wambui
 
 
 

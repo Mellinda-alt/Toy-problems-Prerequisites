@@ -1,26 +1,25 @@
+/*5-> 1 point
+Math.floor(1.3)
+12 point -> suspended
+*/
 
-function carSpeed(limit) {
+carSpeed(180);
 
-const speed = 80;
+function carSpeed(speed) {
+    const speedLimit = 70;
+    const kmPerPOint = 5;
 
-const points = Math.floor((speed - 70) / 5);
-
-if (speed < 75) {
-    console.log("Ok");
-} else if(points < 12) {
-    console.log(`points: ${points}`);
-} else {
-    console.log(`License suspended by ${points} points`);
+    if(speed > speedLimit + kmPerPOint) {
+        console.log("Ok");
+        return;
+    }
+    
+    const points = Math.floor((speed - speedLimit) / kmPerPOint);
+    if(points >= 12) {
+        console.log("License Suspended");
+    } else {
+        console.log("Points:", points);
+    }
 }
-
-const demeritPoints = points;
-console.log(`points: ${demeritPoints}`);
-
-}
-
-const driverSpeed = parseInt("Enter driver's speed (km/h): ");
-
-carSpeed(driverSpeed);
-
 
 

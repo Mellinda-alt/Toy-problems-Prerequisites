@@ -1,7 +1,10 @@
 
 
 function calculateGrade(mark) {
-    if (mark > 79) {
+   
+   if (mark < 0 || mark > 100 || isNaN(mark) || typeof mark !== 'number') {
+    return 'Invalid Mark.'
+   } else if (mark > 79) {
         return 'A';
     } else if (mark >= 60) { 
         return 'B';
@@ -9,12 +12,10 @@ function calculateGrade(mark) {
         return 'C';
     } else if (mark >= 40) {
         return 'D';
-    } else if (mark < 40) {
+    } else {
         return 'E';
     }
 }
 
 
-
-const myCalculateGrade = calculateGrade(60);
-console.log(myCalculateGrade);
+console.log(calculateGrade(80));

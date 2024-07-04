@@ -1,42 +1,34 @@
-# Title:Toy Promblems Prerequisites
-
-## Description:
-
-### Student Grade Generator
-
-1. Write a program that takes the speedof a car as input e.g 80. If the speed is less than 70, it should print "Ok". Otherwise, for every 5 km/s above the speed limit (70), it should give the driver one demerit point and print the total number of demerit points.
+# Wk 1 Code Challenge : Toy Promblems
 
 
-> For example,if the speed is 80,it should print: "Points: 2". If the driver gets more than 12 points,the function should print: "License suspended".
+## Prerequisites
 
-### Speed Detector
+1. Create a repository on your GitHub account. 
 
-2. Write a program that takes the speed of a car as input e.g 80. If the speed is less than 70, it should print “Ok”. Otherwise, for every 5 km/s above the speed limit (70), it should give the driver one demerit point and print the total number of demerit points.
+    _**NB: One folder, with 3-4 files for each solution. Please note that a single file should only hold one solution.**_
 
-   > For example, if the speed is 80, it should print: “Points: 2”. If the driver gets more than 12 points, the function should print: “License suspended”.
+2. Use JavaScript to wire down the solution.
 
-### Net Salary Calculator
+3. Push the solution to the above repository once done.
 
-3. Write a program whose major task is to calculate an individual’s Net Salary by getting the inputs of basic salary and benefits. Calculate the payee (i.e. Tax), NHIF Deductions, NSSF Deductions, gross salary, and net salary. 
+4. Submit the repository link for grading.
 
-NB: Use KRA, NHIF, and NSSF values provided in the link below.
+5. Ensure your repository has a well written README.
 
-- https://www.aren.co.ke/payroll/taxrates.htm Links to an external site.
+## System Requirements
 
-Links to an external site.-  Links to an external site.Links to an external site.
+1. A browser that runs JavaScript.
+2. An operating system.
+3. Node 20
+4. 4GB RAM(random access memory).
+5. At least 256GB of storage.
 
-- www.kra.go.ke/en/individual/calculate-tax/calculating-tax/payeLinks to an external site.
-
-
-## Prerequisites / Getting Started
-
-Inorder to run this program a computer should meet the following requirements;
-    1. 8GB RAM(Random Access Memory) and upwards.
-    2. Core i5 7th Gen and upwards.
-    3. At least 256GB of storage.
 
 
 ## Installation:
+
+
+### Alternative One:
 
 1. Open your GitHub account and search for my username.
 2. Scroll through the repositories and search for Toy Promblems Prerequisites.
@@ -45,6 +37,9 @@ Inorder to run this program a computer should meet the following requirements;
 5. Name your repository and scroll down the page to create repository and click.
 6. Center of the page is a link under HTTPS and SSH click the link under SSH.
 7. Open terminal and type git clone and the copied link from SSH.
+        ```git clone https://github.com/Mellinda-alt/Toy-problems-Prerequisites```
+
+
 
 
 ## Running the Application
